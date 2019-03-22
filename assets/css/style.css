@@ -49,13 +49,13 @@ hr {
 .navbar a.active {
   background-color: #4aaaa5;
   color: #e0d9d9
-}
+}**/
 
 .centerNav {
   margin: auto;
   background-color: white;
   padding: 19px 0px 22px 0px;
-}**/
+}
 
 .center {
   margin: auto;

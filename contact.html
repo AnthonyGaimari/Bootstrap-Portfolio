@@ -14,9 +14,20 @@
   <title>Bootstrap Portfolio Portfolio</title>
   <Style>
   nav {
-  background-color: white;
-  margin: 0 auto;
-  width: 960px;
+    .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
 }
     .navbar {
       width: 100%;
@@ -27,10 +38,12 @@
     }
 
     .navbar-brand {
+      font-family: Georgia, 'Times New Roman', Times, serif;
       background-color: teal;
       display: inline-block;
       padding: .3125rem;
       margin-right: 1rem;
+      margin-left: 10.5rem;
       font-size: 1.25rem;
       line-height: inherit;
       white-space: nowrap;
