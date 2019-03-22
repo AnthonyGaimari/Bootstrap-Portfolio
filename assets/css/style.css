@@ -20,7 +20,7 @@ hr {
   border-bottom: 2px solid #ccc;
 }
 
-nav {
+/**nav {
   background-color: white;
   margin: 0 auto;
   width: 960px;
@@ -55,7 +55,7 @@ nav {
   margin: auto;
   background-color: white;
   padding: 19px 0px 22px 0px;
-}
+}**/
 
 .center {
   margin: auto;
