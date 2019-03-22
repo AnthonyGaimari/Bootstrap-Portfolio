@@ -49,7 +49,7 @@ hr {
 .navbar a.active {
   background-color: #4aaaa5;
   color: #e0d9d9
-}**/
+}
 
 .centerNav {
   margin: auto;
@@ -65,7 +65,7 @@ hr {
   border-width: 2px;
   border-color: #ddd;
   padding: 18px;
-}
+}**/
 
 div.lineHt {
   font-size: 14px;
