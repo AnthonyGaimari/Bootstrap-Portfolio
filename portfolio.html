@@ -9,17 +9,36 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!--<link rel="stylesheet" href="assets/css/style.css">-->
+  <link rel="stylesheet" href="assets/css/style.css"
+  <link rel="stylesheet" href="assets/css/portfolio.css"
   <title>Bootstrap Portfolio Portfolio</title>
+  <Style>  
+    .navbar-brand {
+      background-color: teal;
+      display: inline-block;
+      padding: .3125rem;
+      margin-right: 1rem;
+      font-size: 1.25rem;
+      line-height: inherit;
+      white-space: nowrap;
+  }   
+  .container {
+    width: 960px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  } 
+    </Style>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-sm navbar-light bg-light">
-    <a class="navbar-brand" href="#">Anthony Gaimari</a>
+    <a class="navbar-brand text-white" href="#">Anthony Gaimari</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="index.html">About</a>
@@ -34,7 +53,37 @@
     </div>
   </nav>
   <!--  Build out Grid  -->
-  <h1>Portfolio</h1>
+   <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="center">
+          <h2>Portfolio</h2>
+          <hr>
+          <div>
+            <div>
+              <h4>Hangman</h4>
+            </div>
+            <div class="cover2">
+              <h4>RPG Game</h4>
+            </div>
+          </div>
+          <div>
+            <div class="cover3">
+              <h4>Trivia Game</h4>
+            </div>
+            <div class="cover4">
+              <h4>Rutgers Info Widget</h4>
+            </div>
+          </div>
+          <div>
+            <div class="cover5">
+              <h4>Rock Paper Scissors</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-------------------------->
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

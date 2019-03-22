@@ -9,17 +9,29 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!--<link rel="stylesheet" href="assets/css/style.css">-->
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Bootstrap Portfolio Portfolio</title>
+  <Style>
+    .navbar-brand {
+      background-color: teal;
+      display: inline-block;
+      padding: .3125rem;
+      margin-right: 1rem;
+      font-size: 1.25rem;
+      line-height: inherit;
+      white-space: nowrap;
+    }
+  </Style>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-sm navbar-light bg-light">
-    <a class="navbar-brand" href="#">Anthony Gaimari</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand text-white" href="#">Anthony Gaimari</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="index.html">About</a>
@@ -34,7 +46,28 @@
     </div>
   </nav>
   <!--  Build out Grid  -->
-  <h1>Contact</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Contact</h2>
+        <hr>
+        </hr>
+        <label for="fullname">Name</label><br>
+        <input type="text" id="fname" name="firstname" placeholder="John Smith"><br>
+
+        <label for="email">Email</label><br>
+        <input type="text" id="lname" name="lastname" placeholder="examle@gmail.com"><br>
+
+        <label for="eMessage">Message</label><br>
+        <textarea rows="8" cols="133" placeholder="Please add your text content here"></textarea>
+        <input class="submit" type="submit" value="Submit">
+      </div>
+      <footer class="footer">
+        <p class="bottom">Copyright &#169; 2019</p>
+      </footer>
+    </div>
+  </div>
+  </div>
   <!-------------------------->
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
