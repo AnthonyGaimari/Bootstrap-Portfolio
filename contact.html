@@ -9,10 +9,23 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-  
+  <link rel="stylesheet" href="assets/css/style.css">
+
   <title>Bootstrap Portfolio Portfolio</title>
   <Style>
+  nav {
+  background-color: white;
+  margin: 0 auto;
+  width: 960px;
+}
+    .navbar {
+      width: 100%;
+      margin-bottom: 25px;
+      background-color: #fff;
+      border-bottom: 2px solid #ccc;
+
+    }
+
     .navbar-brand {
       background-color: teal;
       display: inline-block;
@@ -21,20 +34,44 @@
       font-size: 1.25rem;
       line-height: inherit;
       white-space: nowrap;
-  }   
-  .container {
-    width: 960px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  } 
+    }
+
+    .container {
+      width: 960px;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+      background-color: white;
+      margin: auto;
+      width: 960px;
+      background-color: white;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #ddd;
+      padding: 18px;
+    }
+
+    textarea {
+      overflow: auto;
+      resize: vertical;
+      width: 875px;
+    }
   </Style>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-sm navbar-light bg-light">
-    <a class="navbar-brand text-white" href="#">Anthony Gaimari</a>
+    <div class="navbar-brand text-white">Anthony Gaimari</div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -69,6 +106,9 @@
         <label for="eMessage">Message</label><br>
         <textarea rows="8" cols="133" placeholder="Please add your text content here"></textarea>
         <input class="submit" type="submit" value="Submit">
+      </div>
+      <div>
+        <p>&nbsp;</p>
       </div>
       <footer class="footer">
         <p class="bottom">Copyright &#169; 2019</p>
