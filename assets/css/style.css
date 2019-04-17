@@ -104,6 +104,7 @@ textarea {
 
 input.submit {
   color: #fff;
+  margin: 10px;
   padding: 2px 10px;
   background-color: #4aaaa5;
   height: 35px;
@@ -123,7 +124,7 @@ input.submit {
   font-size: 10px;
 }
 
-.footerSticky {
+/* .footerSticky {
   position: sticky;
   left: 0;
   bottom: 0;
@@ -135,7 +136,7 @@ input.submit {
   text-align: center;
   font-size: 10px;
   margin-top: 25px;
-}
+} */
 
 .bottom {
   vertical-align: text-bottom;
